@@ -32,3 +32,12 @@ To run your tests
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+# Insert to Middle of an Array
+Take a single value and insert it into the middle of an existing array
+
+## Whiteboard Process
+![Whiteboard2](challenge2.png)
+
+## Approach & Efficiency
+<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
