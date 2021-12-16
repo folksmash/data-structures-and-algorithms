@@ -21,3 +21,17 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+## Challenge Summary
+
+Write a function called validate brackets
+
+### Whiteboard Process
+![Whiteboard](/home/folksmash/projects/data-structures-and-algorithms/challenge13.png)
+
+### Approach & Efficiency
+
+This was the approach I found online to solve the issue. I am not sure if there is a more effective or effiecient want to solve this problem.
+
+###  Solution
+<!-- Show how to run your code, and examples of it in action -->
