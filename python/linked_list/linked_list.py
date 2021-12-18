@@ -4,13 +4,13 @@ class Node:
         self.values = value
         self.next = next
 
-
 class LinkedList:
     """
     Put docstring here
     """
     def __init__(self):
         self.head = None
+
 
 
     def insert(self, value):
@@ -62,7 +62,6 @@ class LinkedList:
             pointer = pointer.next
         return self.head
 
-
     def includes(self, value):
         current = self.head
 
@@ -72,7 +71,6 @@ class LinkedList:
             current = current.next
         return False
 
-
     def __str__(self):
         current = self.head
         output = ""
@@ -80,5 +78,5 @@ class LinkedList:
             output += "{ " + current.values + " } -> "
             current = current.next
         output += "NULL"
-
         return output
+

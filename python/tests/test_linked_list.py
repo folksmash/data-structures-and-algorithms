@@ -45,6 +45,7 @@ def test_to_string():
     lst.insert("cat")
     assert str(lst) == "{ cat } -> { dog } -> NULL"
 
+
 def test_append_end():
     list = LinkedList()
     list.insert("1")
@@ -75,3 +76,4 @@ def test_append_multi_end():
     list.append("2")
     list.append("3")
     assert str(list) == "{ 1 } -> { 2 } -> { 3 } -> NULL"
+

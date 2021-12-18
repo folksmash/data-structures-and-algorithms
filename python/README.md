@@ -18,13 +18,6 @@ adds a new node with the given new value immediately after the first node that h
 
 ![whiteboard](challenge06.png)
 
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-
-## Solution
-<!-- Show how to run your code, and examples of it in action -->
-
-
 # Data Structures and Algorithms
 
 ## Language: `Python`
