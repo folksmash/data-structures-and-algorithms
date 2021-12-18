@@ -1,3 +1,26 @@
+# Challenge Summary
+
+## Write a function called zip lists
+
+- Arguments: 2 linked lists
+
+- Return: New Linked List, zipped as noted below
+
+- Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+
+- Try and keep additional space down to O(1)
+
+- You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+## Whiteboard Process
+
+![whiteboard](/home/folksmash/projects/data-structures-and-algorithms/python/codechallenge08.png)
+
+## Approach & Efficiency
+
+this was the most efficient approach I could take without using bult in functions. It is O(n) because it scales iteratively with the data provided
+
+
 # Data Structures and Algorithms
 
 ## Language: `Python`
