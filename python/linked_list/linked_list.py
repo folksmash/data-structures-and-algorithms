@@ -1,19 +1,8 @@
-# Create a Linked List class --
-# Within your Linked List class, include a head property. --
-# Upon instantiation, an empty Linked List should be created. --
-
-# Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
-
-# self.head = node('dog', self.head)
-
-
 class Node:
 
     def __init__(self, value, next = None):
         self.values = value
         self.next = next
-
-
 
 class LinkedList:
     """
@@ -22,13 +11,57 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+
+
     def insert(self, value):
         self.head = Node(value, self.head)
 
-#     includes
-# Arguments: value
-# Returns: Boolean
-# Indicates whether that value exists as a Node’s value somewhere within the list.
+
+    def append(self, value):
+        current = self.head
+        if current:
+            while current.next != None:
+                current = current.next
+            current.next = Node(value)
+        else:
+            self.head = Node(value, self.head)
+
+
+    def insert_before(self, value, position):
+        new = Node(value)
+        pointer = self.head
+        counter = 1
+        if position == 0:
+            new.next = self.head
+            self.head = new
+            return self.head
+        while pointer.next is not None:
+            if counter == position:
+                new.next = pointer.next
+                pointer.next = new
+                break
+            counter += 1
+            pointer = pointer.next
+        return self.head
+
+
+    def insert_after(self, value, position):
+        new = Node()
+        pointer = self.head
+        counter = 1
+        if position == 0:
+            new.next = self.head
+            self.head = new
+            return self.head
+        while pointer.next is not None:
+            if counter == position:
+                new.next = pointer.next
+                pointer.next = new
+                break
+            counter += 1
+            pointer = pointer.next
+        return self.head
+
     def includes(self, value):
         current = self.head
 
@@ -38,12 +71,6 @@ class LinkedList:
             current = current.next
         return False
 
-# The class should contain the following methods
-# insert
-# Arguments: value
-# Returns: nothing
-# Adds a new node with that value to the head of the list with an O(1) Time performance.
-
     def __str__(self):
         current = self.head
         output = ""
@@ -51,10 +78,5 @@ class LinkedList:
             output += "{ " + current.values + " } -> "
             current = current.next
         output += "NULL"
-
         return output
 
-# to string
-# Arguments: none
-# Returns: a string representing all the values in the Linked List, formatted as:
-# "{ a } -> { b } -> { c } -> NULL"

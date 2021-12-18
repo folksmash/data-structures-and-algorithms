@@ -51,3 +51,28 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+# Linked List Insertions
+
+### append
+
+arguments: new value
+adds a new node with the given value to the end of the list
+
+### insert before
+
+arguments: value, new value
+adds a new node with the given new value immediately before the first node that has the value specified
+
+### insert after
+
+arguments: value, new value
+adds a new node with the given new value immediately after the first node that has the value specified
+
+## Whiteboard Process
+
+![whiteboard6](code_challenge06.png)
+
+## Approach & Efficiency
+
+This is the most efficient approach I could take without using built in methods

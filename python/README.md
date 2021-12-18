@@ -1,23 +1,22 @@
-# Singly Linked List
-<!-- Short summary or background information -->
+# Challenge Summary
 
-## Challenge
+Write the following methods for the Linked List class:
 
-Write tests to prove the following functionality:
+append
+arguments: new value
+adds a new node with the given value to the end of the list
 
-Can successfully instantiate an empty linked list
-Can properly insert into the linked list
-The head property will properly point to the first node in the linked list
-Can properly insert multiple nodes into the linked list
-Will return true when finding a value within the linked list that exists
-Will return false when searching for a value in the linked list that does not exist
-Can properly return a collection of all the values that exist in the linked list
+insert before
+arguments: value, new value
+adds a new node with the given new value immediately before the first node that has the value specified
 
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+insert after
+arguments: value, new value
+adds a new node with the given new value immediately after the first node that has the value specified
 
-## API
-<!-- Description of each method publicly available to your Linked List -->
+## Whiteboard Process
+
+![whiteboard](challenge06.png)
 
 # Data Structures and Algorithms
 
