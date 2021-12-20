@@ -1,3 +1,14 @@
+# Trees
+Usage and basic functions of binary trees
+
+## Challenge
+Create a node, tree, and binary tree search function to utilize the basic actions of binary trees
+
+## Approach & Efficiency
+
+- Space: O(1)
+- Time: O(N)
+
 # Data Structures and Algorithms
 
 ## Language: `Python`
