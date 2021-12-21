@@ -21,3 +21,33 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+### Reverse an Array
+
+- Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
+
+### Whiteboard Process
+
+![Whiteboard](challenge.png)
+
+## Approach & Efficiency
+<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+# Insert to Middle of an Array
+Take a single value and insert it into the middle of an existing array
+
+## Whiteboard Process
+![Whiteboard2](challenge2.png)
+
+## Approach & Efficiency
+<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+
+
+# Binary Search of Sorted Array
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the value of the search key, or -1 if the element is not in the array.
+
+## Whiteboard Process
+![whiteboard3](code_challenge3.png)
+
+## Approach & Efficiency
+<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
