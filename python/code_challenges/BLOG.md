@@ -14,7 +14,7 @@ Pseudocode
 
       arr[j + 1] <-- temp
 
-![Whiteboard](/home/folksmash/projects/data-structures-and-algorithms/python/code_challenges/insert_sort.png)
+[Whiteboard](/home/folksmash/projects/data-structures-and-algorithms/python/code_challenges/insert_sort.png)
 
 ## Efficiency
 
